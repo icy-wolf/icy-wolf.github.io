@@ -1,21 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="css/bootstrap.css">
-	<title>Nicole Lawrence GitHub Pages</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+	<title>What Really Goes on at Matrix</title>
 </head>
 <body>
 	<div class="container">
-		<header>
-			<h1>Welcome to my website</h1>
-		</header>
-		<div id="navagationbar">
-				<ul class="ribbon">
-					  <li><a href="index.html">Home</a></li>
-					  <li><a href="techPaper.html">Tech Paper</a></li>
-				</ul>
+		<h1>What Really Goes on at MATRIX?</h1>
+		<p class="subheading"><small>Posted by Nicole Lawrence on February 23rd, 2015</small></p>
+		<p class="lead">Michigan State University is home to a variety of technological companies and organizations. One of these companies on campus is called MATRIX and today we are going to dive into the Matrix to see what it's really all about.</p>
+		<div class="panel panel-default">
+		  <div class="panel-heading">
+		    <h3 class="panel-title">Web and Database Servers</h3>
+		  </div>
+		  <div class="panel-body">
+		    In terms of the servers that Matrix has, they all are run on the Linux flavor "Unstable Debian" which, despite it's name, is quite stable. Any of their virtual severs are run off a virtualization software called Xen. They have two disk farms, both running on heartbeat and are mirrors of each other. While the primary disk farm is up and running, the second disk farm is constantly updating to mirror the primary. If for whatever reason the primary disk farm goes down, the secondary disk farm picks up and starts running. This prevents downtime and loss of service.
+		  </div>
 		</div>
-		<p>Welcome to my website! I know it doesn't look like much but it is a work in progress.</p>
+		<div class="panel panel-default">
+		  <div class="panel-heading">
+		    <h3 class="panel-title">Software</h3>
+		  </div>
+		  <div class="panel-body">
+		    Developers have great flexibility on what software programs they use to complete the tasks assigned to them. They need to be able to access a database, edit files, have some sort of version control and connect to company chat. Developers have great flexibility because they can work physically in the office or remotely. Some programs used by employees include Notepad++, Eclipse, MySQL Workbench, Pidgen (for Windows Users), Adium (for Mac users), Sublime Text and grepWin to search through the files they are working on. Matrix uses SVN as their version control software. All the student developers push to a local branch where their code can be tested before it's pushed to the trunk on the live site.
+		  </div>
+		</div>
+		<div class="panel panel-default">
+		  <div class="panel-heading">
+		    <h3 class="panel-title">Deployment Strategies</h3>
+		  </div>
+		  <div class="panel-body">
+		    Due to the nature of employing students as developers, Matrix does not have a specific deployment strategies. The students are given dates of when tasks need to be completed and they student works within that time frame. If the student feels like they cannot make that time frame work then the task may be moved to another student or full time employee. The reason of this is because Matrix believes that school comes first. Also, students have this pesky habit about them called graduating.
+		  </div>
+		</div>
+		<div class="panel panel-default">
+		  <div class="panel-heading">
+		    <h3 class="panel-title">OS</h3>
+		  </div>
+		  <div class="panel-body">
+		    As you can tell, Matrix is open to a variety of programs for both Windows, Mac and Linux users. Most of the software it uses is for the Windows OS but student developers are not limited to that. The servers however, Matrix has made Linux their OS of choice.
+		  </div>
+		</div>
+		<div class="panel panel-default">
+		  <div class="panel-heading">
+		    <h3 class="panel-title">Resources</h3>
+		  </div>
+		  <div class="panel-body">
+		    (Z. Schemmer, personal communication, February 18, 2015)
+		  </div>
+		</div>
 	</div>
 </body>
 </html>
