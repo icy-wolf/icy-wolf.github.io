@@ -1,5 +1,5 @@
 body{
-	background-color: #c7c7d1;
+	background-color: #B2D1FF;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -8,13 +8,16 @@ body{
 	background-color: white;
 	padding: 1.25em;
 }
+header{
+	padding-bottom: .75em;
+}
 h1{
 	text-align: center;
 	font-size: 3em;
-	margin-bottom: .5em;
 	border-bottom: solid 1pt black;
 	padding-right: .20em;
 	padding-left: .20em;
+	color: #0047B2;
 }
 .container p{
 	font-size: 1.25em;
@@ -23,9 +26,12 @@ h1{
 	padding-right: .5em;
 }
 .panel-default > .panel-heading {
-	background-color: #e0e0e0;
+	background-color: #80B2FF;
 }
 .container .subheading{
 	margin-top: 0;
 	text-align: center;
+}
+.lead{
+	text-align: justify;
 }
