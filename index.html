@@ -1,59 +1,44 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/main.css">
-	<title>What Really Goes on at Matrix</title>
+<head lang="en">
+  <meta charset="utf-8">
+  <title>Nicole Lawrence</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<div class="container">
-		<header>
-			<img src="MATRIX_logo.jpg" width="600" height="419" alt="Matrix logo">
-			<h1>What Really Goes on at MATRIX?</h1>
-		</header>
-		<p class="subheading"><small>Posted by Nicole Lawrence on February 23rd, 2015</small></p>
-		<p class="lead">Michigan State University is home to a variety of technology companies and organizations. One such company is called MATRIX and today we are going to dive into Matrix to see what it's really all about.</p>
-		<div class="panel panel-default">
-		  <div class="panel-heading">
-		    <h3 class="panel-title">Web and Database Servers</h3>
-		  </div>
-		  <div class="panel-body">
-		    In terms of the servers that Matrix has, they all are run on the Linux flavor "Unstable Debian" which, despite it's name, is quite stable. Any of their virtual severs are run off a virtualization software called Xen. They have two disk farms, both running on heartbeat and are mirrors of each other. While the primary disk farm is up and running, the second disk farm is constantly updating to mirror the primary. If for whatever reason the primary disk farm goes down, the secondary disk farm picks up and starts running. This prevents downtime and loss of service.
-		  </div>
-		</div>
-		<div class="panel panel-default">
-		  <div class="panel-heading">
-		    <h3 class="panel-title">Software</h3>
-		  </div>
-		  <div class="panel-body">
-		    Developers have great flexibility on what software programs they use to complete the tasks assigned to them. They need to be able to access a database, edit files, have some sort of version control and connect to company chat. Developers have great flexibility because they can work physically in the office or remotely. Some programs used by employees include <a href="http://notepad-plus-plus.org/">Notepad++</a>, <a href="https://eclipse.org/home/index.php">Eclipse</a>, <a href="http://www.mysql.com/products/workbench/">MySQL Workbench</a>, <a href="https://www.pidgin.im/">Pidgen</a> (for Windows Users), <a href="https://adium.im/">Adium</a> (for Mac users), <a href="http://www.sublimetext.com/">Sublime Text</a> and <a href="http://stefanstools.sourceforge.net/grepWin.html">grepWin</a> to search through the files they are working on. Matrix uses SVN as their version control software. All the student developers push to a local branch where their code can be tested before it's pushed to the trunk on the live site.
-		  </div>
-		</div>
-		<div class="panel panel-default">
-		  <div class="panel-heading">
-		    <h3 class="panel-title">Deployment Strategies</h3>
-		  </div>
-		  <div class="panel-body">
-		    Due to the nature of employing students as developers, Matrix does not have a specific deployment strategies. The students are given dates of when tasks need to be completed and they work within that time frame. If the student feels like they cannot make that deadline then the task may be moved to another student or full time employee. The reason of this is because Matrix believes that school comes first. Also, students have this pesky habit called graduating.
-		  </div>
-		</div>
-		<div class="panel panel-default">
-		  <div class="panel-heading">
-		    <h3 class="panel-title">OS</h3>
-		  </div>
-		  <div class="panel-body">
-		    As you can tell, Matrix is open to a variety of programs for both Windows, Mac and Linux users. Most of the software used is for the Windows OS but student developers are not limited to that. The servers however, Matrix has made Linux their OS of choice.
-		  </div>
-		</div>
-		<div class="panel panel-default">
-		  <div class="panel-heading">
-		    <h3 class="panel-title">Resources</h3>
-		  </div>
-		  <div class="panel-body">
-		    (Z. Schemmer, personal communication, February 18, 2015)<br>
-		    (Downloaded image from <a href="matrix.msu.edu">Matrix Web Site</a>)
-		  </div>
-		</div>
-	</div>
+<header>
+  <img alt="Nicole Lawrence Profile Picture" src="img/profilepic.jpg" height="200" width="200">
+  <h1>Nicole Lawrence</h1>
+  <h2>Michigan State University Student, East Lansing, MI</h2>
+</header>
+<nav class="navbar navbar-inverse">
+  <ul class="nav navbar-nav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="academic.html">Academics</a></li>
+    <li><a href="work.html">Experience</a></li>
+    <li><a href="project.html">Projects</a></li>
+    <li><a href="http://blog.icywolf.me">Blog</a></li>
+  </ul>
+</nav>
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Welcome</h3>
+    </div>
+    <div class="panel-body">
+      <p>Hello there! My name is Nicole Lawrence and I am currently a Junior at Michigan State University. My major is Computer Science and Engineering with a cognate in Media and Information. I am also a member of the Honors College here at MSU and I currently hold the position of Webmaster for MSU's Women in Computing Club.</p>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Contact Information</h3>
+    </div>
+    <div class="panel-body">
+      <p>Email:</p>
+      <a href="mailto:lawre272@msu.edu">lawre272@msu.edu</a>
+    </div>
+  </div>
+</div>
 </body>
 </html>
